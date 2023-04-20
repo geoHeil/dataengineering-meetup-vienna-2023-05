@@ -1,0 +1,9 @@
+dagster
+pandas
+scikit-learn
+dagster-cloud
+boto3
+
+[dev]
+dagit
+pytest

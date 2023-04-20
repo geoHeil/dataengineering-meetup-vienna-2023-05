@@ -1,0 +1,3 @@
+hooli-data-eng-pipelines/dbt_project/logs
+hooli-data-eng-pipelines/dbt_project/target
+example.duckdb

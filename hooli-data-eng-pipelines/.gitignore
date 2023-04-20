@@ -1,0 +1,8 @@
+.venv/
+.vscode/
+bin/
+__pycache__
+pyvenv.cfg
+*.egg-info
+.ipynb_checkpoints/
+.bashrc

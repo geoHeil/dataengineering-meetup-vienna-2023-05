@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+analytics_project/__init__.py
+analytics_project/repository.py
+analytics_project.egg-info/PKG-INFO
+analytics_project.egg-info/SOURCES.txt
+analytics_project.egg-info/dependency_links.txt
+analytics_project.egg-info/requires.txt
+analytics_project.egg-info/top_level.txt
+analytics_project/assets/__init__.py

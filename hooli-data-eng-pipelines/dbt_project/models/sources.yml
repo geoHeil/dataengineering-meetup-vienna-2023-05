@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: "RAW_DATA"
+    tables:
+      - name: "orders"
+      - name: "users"
+  - name: "FORECASTING"
+    tables:
+      - name: "predicted_orders"

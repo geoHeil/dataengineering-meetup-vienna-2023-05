@@ -1,0 +1,3 @@
+# requirements for local dagit, not for the projects
+dagster
+dagit

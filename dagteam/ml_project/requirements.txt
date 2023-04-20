@@ -1,0 +1,2 @@
+# requirements.txt used by GitHub action after utils is copied into sub-directory 
+utils @ file:///opt/dagster/app/utils

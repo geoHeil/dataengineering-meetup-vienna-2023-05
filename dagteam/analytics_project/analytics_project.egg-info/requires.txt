@@ -1,0 +1,8 @@
+dagster
+pandas
+dagster-cloud
+boto3
+
+[dev]
+dagit
+pytest

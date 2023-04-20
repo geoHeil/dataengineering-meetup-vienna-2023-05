@@ -1,0 +1,10 @@
+load_from:
+  - python_package: 
+      package_name: ml_project.ml_project
+      # we are using the conda interpreter - for sake of simplicity it is the same one for all projects ;)
+      #executable_path: ml_project/.venv/bin/python
+      
+  - python_package: 
+      package_name: analytics_project.analytics_project
+      # we are using the conda interpreter - for sake of simplicity it is the same one for all projects ;)
+      #executable_path: analytics_project/.venv/bin/python
