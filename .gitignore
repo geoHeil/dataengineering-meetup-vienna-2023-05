@@ -1,3 +1,7 @@
 hooli-data-eng-pipelines/dbt_project/logs
 hooli-data-eng-pipelines/dbt_project/target
 example.duckdb
+dbt_fal_ml_example/notebooks/.ipynb_checkpoints
+example.duckdb.wal
+dbt_ml.duckdb
+dbt_fal_ml_example/logs

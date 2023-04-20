@@ -1,0 +1,13 @@
+example_shop:
+  target: LOCAL
+  outputs:
+    staging:
+      type: fal
+      db_profile: db
+    db:
+      type: bigquery
+      method: service-account-json
+    LOCAL:
+      type: duckdb
+      path: dbt_ml.duckdb
+      schema: ml
