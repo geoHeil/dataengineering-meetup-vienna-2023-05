@@ -20,7 +20,7 @@ ifeq (True,$(HAS_CONDA))
 		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dagteam/ml_project && pip install --editable .)
 		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dagteam/utils && pip install --editable .)
 		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd hooli-data-eng-pipelines && pip install --editable .)
-		# ($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dbt_fal_ml_example && pip install --editable .)
+		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dbt_fal_ml_example/dagster_ml_example && pip install --editable .)
 		@echo ">>> New conda env created. Activate with:\nsource activate $(PROJECT_NAME)"
 endif
 
@@ -34,7 +34,7 @@ ifeq (True,$(HAS_CONDA))
 		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dagteam/ml_project && pip install --editable .)
 		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dagteam/utils && pip install --editable .)
 		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd hooli-data-eng-pipelines && pip install --editable .)
-		# ($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dbt_fal_ml_example && pip install --editable .)
+		($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dbt_fal_ml_example/dagster_ml_example && pip install --editable .)
 		@echo ">>> New conda env created. Activate with:\nsource activate $(PROJECT_NAME)"
 endif
 
@@ -51,7 +51,7 @@ case1-dagteam:
 
 ## Case 2: DBt + Dagster (conversion of fals example to dagster)
 case2-dbt-fal-dagster:
-	($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dbt_fal_ml_example && dagster dev)
+	($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd dbt_fal_ml_example/dagster_ml_example && dagster dev)
 
 
 ## Case 3: Hoolie

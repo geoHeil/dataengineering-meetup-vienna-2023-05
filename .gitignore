@@ -5,3 +5,6 @@ dbt_fal_ml_example/notebooks/.ipynb_checkpoints
 example.duckdb.wal
 dbt_ml.duckdb
 dbt_fal_ml_example/logs
+dbt_fal_ml_example/.idea
+dbt_fal_ml_example/dbt/logs
+dbt_fal_ml_example/dbt/target

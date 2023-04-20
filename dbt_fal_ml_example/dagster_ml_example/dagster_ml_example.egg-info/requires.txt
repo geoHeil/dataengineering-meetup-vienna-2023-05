@@ -1,0 +1,7 @@
+dagster
+dagster-dbt
+dagster_duckdb
+
+[dev]
+dagit
+pytest
